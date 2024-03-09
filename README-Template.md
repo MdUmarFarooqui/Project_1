@@ -1,62 +1,58 @@
 # Project Title
 
-Simple overview of use/purpose.
+Creating a Simple Calculator using GUI and Tkinter
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Crafting a professional calculator application using Tkinter, offering users a user-friendly interface for basic calculations, featuring a clean design with a responsive layout, an entry widget for displaying and inputting numbers, and buttons for digits, basic operations, and error handling for a seamless user experience.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Visual Code Studio, Python and Tkinter module to run the program smoothly.
+### Using Mac OS
 
-### Installing
+## Approach
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Creating a calculator application using Tkinter, a Python GUI library, providing a straightforward interface for users to perform calculations with ease.
 
-### Executing program
+## Executing program (Steps)
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+#### 1. Created a Tkinter-based GUI for the calculator application.
 
-## Help
+#### 2. Implemented the necessary logic to perform basic arithmetic operations.
+      
+Implementing the necessary logic to perform basic arithmetic operations involves creating functions or methods that execute addition, subtraction, multiplication, and division based on user input. In the context of a calculator application using Tkinter, this typically includes the following steps:
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+#### User Input Handling:
+Capture user input from the GUI elements, such as buttons or an entry widget, representing digits and mathematical operations.
 
-## Authors
+#### Parsing and Validation:
+Parse the user input to extract numerical values and the selected operation.
+Validate the input to ensure it follows a valid format for arithmetic operations, handling potential errors gracefully.
 
-Contributors names and contact info
+#### Arithmetic Operations:
+Implement functions or methods to perform addition, subtraction, multiplication, and division based on the parsed user input.
+Ensure that the operations are accurate and handle edge cases, such as division by zero.
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+#####Updating Display:
+Update the GUI display, such as an entry widget, to reflect the ongoing calculations and results.
+Here's a simplified example in Python using functions for addition, subtraction, multiplication, and division:
+<img width="1470" alt="Screenshot 2024-03-09 at 12 45 40 PM" src="https://github.com/MdUmarFarooqui/Project_1/assets/67855745/c0265f7c-1c41-4f38-bd1c-471eaa1f989b">
 
-## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+#### 3. Handled user input and ensured accurate display of calculation results.
 
-## License
+## Key Features
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+#### Calculator UI:
+1. Entry widget for input and display.
+2. Clear ("C") button for resetting.
+3. "=" button for result calculation.
 
-## Acknowledgments
+#### Grid Layout:
+Buttons arranged in a grid for organized presentation.
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+
+
