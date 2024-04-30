@@ -36,7 +36,7 @@ Validate the input to ensure it follows a valid format for arithmetic operations
 Implement functions or methods to perform addition, subtraction, multiplication, and division based on the parsed user input.
 Ensure that the operations are accurate and handle edge cases, such as division by zero.
 
-#####Updating Display:
+##### Updating Display:
 Update the GUI display, such as an entry widget, to reflect the ongoing calculations and results.
 Here's a simplified example in Python using functions for addition, subtraction, multiplication, and division:
 <img width="1470" alt="Screenshot 2024-03-09 at 12 45 40 PM" src="https://github.com/MdUmarFarooqui/Project_1/assets/67855745/c0265f7c-1c41-4f38-bd1c-471eaa1f989b">
